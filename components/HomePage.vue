@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center space-y-1">
     <div class="font-bold text-2xl text-red-700 font-cursive">
-      Easwari Engineering College
+      Easwari Engineering College (Autonomous)
     </div>  
     <div class="font-cursive font-bold text-2xl">
       Department Of Artificial Intelligence & Data Science
