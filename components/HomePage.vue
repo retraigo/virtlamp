@@ -11,7 +11,7 @@
       International Virtual Conference on Machine Learning Applications in
       Applied Sciences and Mathematics
     </div>
-    <div class="font-semibold text-blue-500">IVCMASM 2022</div>
+    <div class="font-bold tracking-wider text-purple-800">IVCMASM 2022</div>
     <div class="">(Online Conference)</div>
     <div class="text-red-500 font-montserrat font-semibold text-2xl">March 30th - 31st, 2022</div>
   </div>

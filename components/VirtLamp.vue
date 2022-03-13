@@ -32,12 +32,12 @@
         </div>
         <img
           class="flex-shrink-0 absolute z-20"
-          :style="{'width': '15.6rem', 'height': '40.5rem', 'top': '300px'}"
+          :style="{'width': '15.6rem', 'height': '40.5rem', 'top': '260px'}"
           src="/lamp_better_x.webp"
         />
         <img
           class="flex-shrink-0 absolute z-10"
-          :style="{'width': '75rem', 'height': '45.5rem', 'top': '600px'}"
+          :style="{'width': '75rem', 'height': '45.5rem', 'top': '560px'}"
           src="/kolam_better-modified.webp"
         />
       </div>
@@ -82,11 +82,11 @@ export default {
   methods: {
     refreshLights() {
       this.lights = [
-        { x: document.body.scrollWidth / 2 - 100, y: 320, name: 'one' },
-        { x: document.body.scrollWidth / 2 - 150, y: 370, name: 'two' },
-        { x: document.body.scrollWidth / 2 + 60, y: 370, name: 'three' },
-        { x: document.body.scrollWidth / 2 + 20, y: 320, name: 'four' },
-        { x: document.body.scrollWidth / 2 - 50, y: 400, name: 'five' },
+        { x: document.body.scrollWidth / 2 - 100, y: 280, name: 'one' },
+        { x: document.body.scrollWidth / 2 - 150, y: 330, name: 'two' },
+        { x: document.body.scrollWidth / 2 + 60, y: 330, name: 'three' },
+        { x: document.body.scrollWidth / 2 + 20, y: 280, name: 'four' },
+        { x: document.body.scrollWidth / 2 - 50, y: 360, name: 'five' },
       ]
     },
     lightUp(num) {
