@@ -21,19 +21,19 @@
           ? 'block'
           : 'hidden'
           }`"
-            :style="{'top': `${light.y + 40}px`, 'left': `${light.x + 26}px`, 'width': '40px', 'height': '40px'}"
-            :src="`/flame/${images[light.name]}.png`"
+            :style="{'top': `${light.y + 30}px`, 'left': `${light.x + 20}px`, 'width': '50px', 'height': '50px'}"
+            :src="`/brighterflame/${images[light.name]}.png`"
           />
           <button
             @click="x => lightUp(light.name)"
-            class="absolute bg-white rounded-full z-30"
+            class="absolute bg-white border-red-700 border rounded-full z-30"
             :style="{'top': `${light.y + 70}px`, 'left': `${light.x + 40}px`, 'width': '10px', 'height': '10px'}"
           ></button>
         </div>
         <img
           class="flex-shrink-0 absolute z-20"
           :style="{'width': '15.6rem', 'height': '40.5rem', 'top': '260px'}"
-          src="/lamp_better_x.webp"
+          src="/lamp_better_y.webp"
         />
         <img
           class="flex-shrink-0 absolute z-10"
@@ -43,7 +43,7 @@
       </div>
       <img
         class="w-36 h-36 absolute pointer-events-none z-50"
-        :src="`/match/${currentDaro}.png`"
+        :src="`/bettermatch/${currentDaro}.png`"
         :style="{'top': yco - 40 + 'px', 'left': xco + 'px'}"
       />
     </div>
@@ -86,7 +86,7 @@ export default {
         { x: document.body.scrollWidth / 2 - 150, y: 330, name: 'two' },
         { x: document.body.scrollWidth / 2 + 60, y: 330, name: 'three' },
         { x: document.body.scrollWidth / 2 + 20, y: 280, name: 'four' },
-        { x: document.body.scrollWidth / 2 - 50, y: 360, name: 'five' },
+        { x: document.body.scrollWidth / 2 - 60, y: 360, name: 'five' },
       ]
     },
     lightUp(num) {
