@@ -10,9 +10,9 @@
           <HomePage />
         </div>
         <div
-          class="w-full"
           v-for="light in lights"
           :key="light.name"
+          class="w-full"
         >
           <img
             :class="
@@ -25,9 +25,9 @@
             :src="`/brighterflame/${images[light.name]}.png`"
           />
           <button
-            @click="x => lightUp(light.name)"
             class="absolute bg-white border-red-700 border rounded-full z-30"
             :style="{'top': `${light.y + 70}px`, 'left': `${light.x + 40}px`, 'width': '10px', 'height': '10px'}"
+            @click="x => lightUp(light.name)"
           ></button>
         </div>
         <img
