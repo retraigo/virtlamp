@@ -4,9 +4,9 @@
       Easwari Engineering College (Autonomous)
     </div>  
     <div class="font-montserrat font-bold text-2xl text-purple-700">
-      Department Of Artificial Intelligence & Data Science
+      Department of Artificial Intelligence & Data Science
     </div>
-    <div class="">Proudly Welcomes You To</div>
+    <div class="">Proudly Welcomes You All To</div>
     <div class="font-montserrat font-bold text-blue-800 transition transform duration-500 ease-in-out hover:scale-110 text-2xl">
       International Virtual Conference on Machine Learning Applications in
       Applied Sciences and Mathematics
